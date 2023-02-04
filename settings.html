@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/Normalize.css" />
+    <link rel="stylesheet" href="./css/stylee.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="slid_bar">
+        <h3>Elzero</h3>
+        <ul>
+          <li class="active">
+            <a href="index.html"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i
+              ><span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="settings.html"
+              ><i class="fa-solid fa-gear fa-fw"></i><span>settings</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span>projects</span></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span>courses</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-circle-user fa-fw"></i
+              ><span>friends</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-file fa-fw"></i><span>files</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-credit-card fa-fw"></i
+              ><span>plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="head">
+          <div class="search">
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="profile">
+            <span><i class="fa-regular fa-bell fa-lg"></i></span>
+            <img src="./imgs/avatar.png" alt="profile image" />
+          </div>
+        </div>
+        <div class="lable-box section-padding">
+          <h1 class="lable">Settings</h1>
+        </div>
+        <div class="Box">
+          <!-- Site Control -->
+          <div class="site-control section section-padding">
+            <div class="section-header-text text01">
+              <h3>Site Control</h3>
+              <span>Control The Website If There Is Maintenance</span>
+            </div>
+            <div class="box">
+              <div class="section-header-text text02">
+                <h3>Website Control</h3>
+                <span>Open/Close Website And Type The Reason</span>
+              </div>
+              <div class="switch"></div>
+            </div>
+            <textarea
+              placeholder="Close Message Content"
+              class="setting-input"
+            ></textarea>
+          </div>
+          <!-- General Info -->
+          <div class="general-info section section-padding">
+            <div class="section-header-text">
+              <h3>General Info</h3>
+              <span>General Information About Your Account</span>
+            </div>
+            <div class="first-name">
+              <span>First Name</span>
+              <input
+                type="text"
+                name="first-name"
+                class="setting-input"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="Last-name">
+              <span>Last Name</span>
+              <input
+                type="text"
+                name="Last-name"
+                class="setting-input"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="email">
+              <span>Email</span>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  class="setting-input"
+                  value="o@nn.sa"
+                  disabled
+                />
+                <a href="#">Change</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

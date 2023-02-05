@@ -32,35 +32,35 @@
             >
           </li>
           <li>
-            <a href="#"
+            <a href="profile.html"
               ><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a
             >
           </li>
           <li>
-            <a href="#"
+            <a href="projects.html"
               ><i class="fa-solid fa-diagram-project fa-fw"></i
               ><span>projects</span></a
             >
           </li>
           <li>
-            <a href="#">
+            <a href="courses.html">
               <i class="fa-solid fa-graduation-cap fa-fw"></i
               ><span>courses</span></a
             >
           </li>
           <li>
-            <a href="#"
+            <a href="friends.html"
               ><i class="fa-regular fa-circle-user fa-fw"></i
               ><span>friends</span></a
             >
           </li>
           <li>
-            <a href="#"
+            <a href="files.html"
               ><i class="fa-regular fa-file fa-fw"></i><span>files</span></a
             >
           </li>
           <li>
-            <a href="#"
+            <a href="plans.html"
               ><i class="fa-regular fa-credit-card fa-fw"></i
               ><span>plans</span></a
             >
@@ -92,7 +92,10 @@
                 <h3>Website Control</h3>
                 <span>Open/Close Website And Type The Reason</span>
               </div>
-              <div class="switch"></div>
+              <label for="check">
+                <input type="checkbox" class="check-box" id="check" />
+                <div class="switch"></div>
+              </label>
             </div>
             <textarea
               placeholder="Close Message Content"
@@ -137,8 +140,137 @@
               </div>
             </div>
           </div>
+          <!-- Security Info -->
+          <div class="security section section-padding">
+            <div class="section-header-text">
+              <h3>Security Info</h3>
+              <span>Security Information About Your Account</span>
+            </div>
+            <div class="box">
+              <div class="section-header-text text">
+                <h3>Password</h3>
+                <span>Last Change On 25/10/2021</span>
+              </div>
+              <a href="#" class="button-style">Change</a>
+            </div>
+            <div class="box">
+              <div class="section-header-text text">
+                <h3>Two-Factor Authentication</h3>
+                <span>Enable/Disable The Feature</span>
+              </div>
+              <label>
+                <input type="checkbox" class="check-box" />
+                <div class="switch"></div>
+              </label>
+            </div>
+            <div class="box">
+              <div class="section-header-text text">
+                <h3>Devices</h3>
+                <span>Check The Login Devices List</span>
+              </div>
+              <a href="#" class="shape">Devices</a>
+            </div>
+          </div>
+          <!-- Social Info -->
+          <div class="social-info section section-padding">
+            <div class="section-header-text">
+              <h3>Social Info</h3>
+              <span>Social Media Information</span>
+            </div>
+            <div class="box">
+              <input type="text" placeholder="Twitter Username" />
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="box">
+              <input type="text" placeholder="Facebook Username" />
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="box">
+              <input type="text" placeholder="LinkedIn Username" />
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="box">
+              <input type="text" placeholder="Youtube Username" />
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <!-- Widgets Control -->
+          <div class="widgets section section-padding">
+            <div class="section-header-text">
+              <h3>Widgets Control</h3>
+              <span>Show/Hide Widgets</span>
+            </div>
+            <ul>
+              <li>
+                <input type="checkbox" id="one" checked /><label for="one"
+                  >Quick Draft</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" id="two" checked /><label for="two"
+                  >Yearly Targets</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" id="three" checked /><label for="three"
+                  >Tickets Statistics</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" id="four" checked /><label for="four"
+                  >Latest News</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" id="five" /><label for="five"
+                  >Latest Tasks</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" id="six" checked /><label for="six"
+                  >Top Search Items</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Backup Manager -->
+          <div class="backup-manager section section-padding">
+            <div class="section-header-text">
+              <h3>Backup Manager</h3>
+              <span>Control Backup Time And Location</span>
+            </div>
+            <div class="period">
+              <div class="daily">
+                <input type="radio" name="period" id="daily" />
+                <label for="daily">Daily</label>
+              </div>
+              <div class="montly">
+                <input type="radio" name="period" id="Montly" />
+                <label for="Montly">Montly</label>
+              </div>
+              <div class="Yearly">
+                <input type="radio" name="period" id="Yearly" />
+                <label for="Yearly">Yearly</label>
+              </div>
+            </div>
+            <div class="hosting">
+              <div class="box">
+                <i class="fa-solid fa-server"></i>
+                <div class="host_company">Megaman</div>
+              </div>
+              <div class="box active-host">
+                <i class="fa-solid fa-server"></i>
+                <div class="host_company">Elzero</div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-server"></i>
+                <div class="host_company">Sigma</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>

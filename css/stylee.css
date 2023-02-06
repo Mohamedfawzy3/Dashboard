@@ -1383,6 +1383,7 @@ a {
 .content .Box .box .income .money {
   color: var(--grey-color);
   font-size: 14px;
+  margin-top: 13px;
 }
 .content .Box .box .date {
   position: absolute;
@@ -1408,4 +1409,92 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+  .content .Box .box .income .money {
+    margin: 0px;
+  }
+}
+@media (min-width: 989px) {
+  .content .Box .projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .content .Box .projects .box {
+    flex-basis: calc(50% - 10px);
+  }
+}
+/* ----------------------- */
+/* courses */
+/* ----------------------- */
+.content .courses-content {
+}
+.content .courses-content .course {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.content .courses-content .course .images {
+  position: relative;
+}
+.content .courses-content .course .images .course-img {
+  width: 100%;
+}
+.content .courses-content .course .images .instractor-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.content .courses-content .course .course-describe {
+  padding: 0px 20px 20px 20px;
+}
+.content .courses-content .course .course-describe p {
+  color: var(--grey-color);
+  font-size: 14px;
+}
+.content .courses-content .course .course-details {
+  border-top: 1px solid #eee;
+  position: relative;
+  padding: 20px;
+}
+.content .courses-content .course .course-details .shape {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--blue-color);
+  color: white;
+}
+.content .courses-content .course .course-details {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey-color);
+  font-size: 13px;
+  padding: 20px;
+}
+@media (min-width: 915px) {
+  .content .courses-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .content .courses-content .course {
+    flex-basis: calc(50% - 10px);
+  }
+}
+@media (min-width: 1029px) {
+  .content .courses-content .course {
+    flex-basis: calc(100% / 3 - 10px);
+  }
+}
+/* ------------------------ */
+/* Friends */
+/* ------------------------ */
+.content .friends-content{
+  padding:  0px 20px;
 }

@@ -1372,7 +1372,7 @@ a {
 .content .Box .box .income .income-progress {
   display: inline-block;
   height: 6px;
-  width: 260px;
+  width: 240px;
   border-radius: 6px;
   position: relative;
   background-color: #eee;
@@ -1384,6 +1384,7 @@ a {
   left: 0px;
   height: 100%;
   width: 80%;
+  border-radius: 6px;
 }
 .content .Box .box .income .income-progress .red {
   background-color: var(--red-color);
@@ -1752,12 +1753,6 @@ a {
 /* --------------------------- */
 /* Plans */
 /* --------------------------- */
-.content .plans-content{
-
-}
-.content .plans-content .box{
-
-}
 .content .plans-content .box .plane-prog{
 background-color:var(--green-color);
 color: white;
@@ -1781,9 +1776,6 @@ font-size: 25px;
 position: absolute;
 top: 0px;
 left: -20px;
-}
-.content .plans-content .box .features{
-
 }
 .content .plans-content .box .features li{
   display: flex;
@@ -1842,4 +1834,14 @@ display: block;
 .content .plans-content .box:last-child .plane-prog{
   background-color: var(--orange-color);
   outline-color: var(--orange-color);
+}
+@media (min-width:1028px) {
+  .content .plans-content{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+  }
+  .content .plans-content .box{
+  min-width: calc(100%/2 - 10px);
+  }
 }

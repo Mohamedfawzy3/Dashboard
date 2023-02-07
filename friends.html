@@ -1,90 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends</title>
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/Normalize.css" />
-    <link rel="stylesheet" href="./css/stylee.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-</head>
-<body>
-    <div class="header">
-        <div class="slid_bar">
-          <h3>Elzero</h3>
-          <ul>
-            <li class="active">
-              <a href="index.html"
-                ><i class="fa-regular fa-chart-bar fa-fw"></i
-                ><span>Dashboard</span></a
-              >
-            </li>
-            <li>
-              <a href="settings.html"
-                ><i class="fa-solid fa-gear fa-fw"></i><span>settings</span></a
-              >
-            </li>
-            <li>
-              <a href="profile.html"
-                ><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a
-              >
-            </li>
-            <li>
-              <a href="projects.html"
-                ><i class="fa-solid fa-diagram-project fa-fw"></i
-                ><span>projects</span></a
-              >
-            </li>
-            <li>
-              <a href="courses.html">
-                <i class="fa-solid fa-graduation-cap fa-fw"></i
-                ><span>courses</span></a
-              >
-            </li>
-            <li>
-              <a href="friends.html"
-                ><i class="fa-regular fa-circle-user fa-fw"></i
-                ><span>friends</span></a
-              >
-            </li>
-            <li>
-              <a href="files.html"
-                ><i class="fa-regular fa-file fa-fw"></i><span>files</span></a
-              >
-            </li>
-            <li>
-              <a href="plans.html"
-                ><i class="fa-regular fa-credit-card fa-fw"></i
-                ><span>plans</span></a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="content">
-          <div class="head">
-            <div class="search">
-              <input type="search" placeholder="Type A Keyword" />
-            </div>
-            <div class="profile">
-              <span><i class="fa-regular fa-bell fa-lg"></i></span>
-              <img src="./imgs/avatar.png" alt="profile image" />
-            </div>
-          </div>
-          <div class="lable-box section-padding">
-            <h1 class="lable">Friends</h1>
-          </div>
-          <!-- friends content -->
-          <div class="friend-content">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Friends</title>
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/Normalize.css" />
+  <link rel="stylesheet" href="./css/stylee.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="slid_bar">
+      <h3>Elzero</h3>
+      <ul>
+        <li class="active">
+          <a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span>Dashboard</span></a>
+        </li>
+        <li>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-fw"></i><span>settings</span></a>
+        </li>
+        <li>
+          <a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a>
+        </li>
+        <li>
+          <a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span>projects</span></a>
+        </li>
+        <li>
+          <a href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></a>
+        </li>
+        <li>
+          <a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span>friends</span></a>
+        </li>
+        <li>
+          <a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a>
+        </li>
+        <li>
+          <a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span>plans</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="head">
+        <div class="search">
+          <input type="search" placeholder="Type A Keyword" />
+        </div>
+        <div class="profile">
+          <span><i class="fa-regular fa-bell fa-lg"></i></span>
+          <img src="./imgs/avatar.png" alt="profile image" />
+        </div>
+      </div>
+      <div class="lable-box section-padding">
+        <h1 class="lable">Friends</h1>
+      </div>
+      <!-- friends content -->
+      <div class="friends-content Box">
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-01.jpg" alt="person-img" />
+            <div class="name">mohamed fawzy</div>
+            <p>JavaScript Developer</p>
+          </div>
+          <div class="activity vip">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>99 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>15 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>25 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 02/10/2021</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
           </div>
         </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-02.jpg" alt="person-img" />
+            <div class="name">omar fathy</div>
+            <p>Cloud Developer</p>
+          </div>
+          <div class="activity">
+            <div>
+              <i class="fa-regular fa-face-smile"></i> <span>39 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>11 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i> <span>22 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 02/08/2020</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-03.jpg" alt="person-img" />
+            <div class="name">ahmed adelsamad</div>
+            <p>Mobile Developer</p>
+          </div>
+          <div class="activity">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>50 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>8 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>15 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 07/12/2019</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-04.jpg" alt="person-img" />
+            <div class="name">fouad afify</div>
+            <p>Back-End Developer</p>
+          </div>
+          <div class="activity vip">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>30 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>19 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>20 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 25/11/2022</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-05.jpg" alt="person-img" />
+            <div class="name">salah hamama</div>
+              <p>Algorithm Developer</p>
+            </div>
+            <div class="activity">
+              <div>
+                <i class="fa-regular fa-face-smile"></i><span>69 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>44 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i><span>31 Articles</span>
+              </div>
+            </div>
+            <div class="controll">
+              <span>Joined 31/3/2021</span>
+              <div>
+                <a href="profile.html" class="button-style profile">Profile</a>
+                <a href="#" class="button-style remove">Remove</a>
+              </div>
+            </div>
+            <div class="comincation">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span><i class="fa-regular fa-envelope"></i></span>
+            </div>
+          </div>
+        
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-03.jpg" alt="person-img" />
+            <div class="name">eslam elsaid</div>
+            <p>Mobile Developer</p>
+          </div>
+          <div class="activity">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>50 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>8 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>15 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 07/12/2019</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-04.jpg" alt="person-img" />
+            <div class="name">karem zaher</div>
+            <p>Back-End Developer</p>
+          </div>
+          <div class="activity vip">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>30 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>19 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>20 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 25/11/2022</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-01.jpg" alt="person-img" />
+            <div class="name">ahmed ashraf</div>
+            <p>JavaScript Developer</p>
+          </div>
+          <div class="activity">
+            <div>
+              <i class="fa-regular fa-face-smile"></i><span>99 Friend</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-commit"></i><span>15 Projects</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-newspaper"></i><span>25 Articles</span>
+            </div>
+          </div>
+          <div class="controll">
+            <span>Joined 02/10/2021</span>
+            <div>
+              <a href="profile.html" class="button-style profile">Profile</a>
+              <a href="#" class="button-style remove">Remove</a>
+            </div>
+          </div>
+          <div class="comincation">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="box section section-padding">
+          <div class="person-info">
+            <img src="./imgs/friend-05.jpg" alt="person-img" />
+            <div class="name">sanad ashraf</div>
+              <p>Algorithm Developer</p>
+            </div>
+            <div class="activity">
+              <div>
+                <i class="fa-regular fa-face-smile"></i><span>69 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>44 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i><span>31 Articles</span>
+              </div>
+            </div>
+            <div class="controll">
+              <span>Joined 31/3/2021</span>
+              <div>
+                <a href="profile.html" class="button-style profile">Profile</a>
+                <a href="#" class="button-style remove">Remove</a>
+              </div>
+            </div>
+            <div class="comincation">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span><i class="fa-regular fa-envelope"></i></span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
